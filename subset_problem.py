@@ -19,11 +19,15 @@ def main():
 
     p = powerset(s)
 
-    print(sum(1 for ss in p if sum(ss) % k == 0))
+    print(sum(1 for ss in p if is_divisible_by(sum(ss), k)))
 
 
 def powerset(s: set) -> set:
     return set(chain.from_iterable(combinations(s, r) for r in range(len(s) + 1)))
+
+
+def is_divisible_by(n: int, k: int) -> bool:
+    return n % k == 0
 
 
 if __name__ == "__main__":
