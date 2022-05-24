@@ -1,4 +1,4 @@
-"""Number of Subsets w/ Sums Divisible by k
+"""Number of Subsets [1, n] w/ Sums Divisible by k
 
 This is a generalization of a problem discussed in ["The unreasonable
 effectiveness of complex numbers in discrete math"](
