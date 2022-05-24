@@ -4,6 +4,7 @@ This is a generalization of a problem discussed in ["The unreasonable
 effectiveness of complex numbers in discrete math"](
     https://www.youtube.com/watch?v=bOXCLR3Wric&t=23s), a 3Blue1Brown video.
 
+**WARNING**: Running time explodes for even fairly small n
 """
 
 
